@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shake Lock</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Shake Lock Screen</string>
+    <string name="title_activity_seekbardailog">Seekbardailog</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2013252532667497/5598960767</string>
+    <string name="google_analytics">UA-50796931-20</string>
+
+</resources>

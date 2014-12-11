@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:padding="10dp"
+        android:text="Buttons" />
+
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:padding="10dp"
+        android:text="Senstivity Value: " />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+
+        <com.gc.materialdesign.views.Slider
+            android:id="@+id/sliderNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#1E88E5"
+            materialdesign:max="40"
+            materialdesign:min="10" />
+    </RelativeLayout>
+
+</LinearLayout>
